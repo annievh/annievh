@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXT Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- for icons -->
+    <script
+      src="https://kit.fontawesome.com/9785556a01.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">
+          <i class="fas fa-gem"></i>
+          Annie Van Harmelen
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="https://github.com/annievh" class="navbar__links">Github</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section    -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Annie</h1>
+          <h2>Van Harmelen</h2>
+          <p>Annie is a skilled programmer with a passion for creating efficient and effective software solutions.</p>
+        </div>
+        <div class="main__img--container">
+          <img src="images/pic1.svg" alt="pic" id="main__img" />
+        </div>
+      </div>
+    </div>
+    <!-- Services Section -->
+    <div class="services">
+        <div class="services__container">
+            <div class="services__card">
+                <h2>JavaScript</h2>
+                
+                <a href="https://github.com/annievh/Hangman">
+                  <button>Play Hangman</button>
+                </a>
+            </div>
+            <div class="services__card">
+                <h2>C#</h2>
+                <a href="https://github.com/annievh/Chat-Bot">
+                  <button>Chat-Bot</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about__container">
+      <div class="about__card">
+        <div class="about__left">
+          <h3>Annie Van Harmelen</h3>
+          <p>Annie is a skilled programmer with experience in a variety of languages and technologies. She has a strong background in computer science and is knowledgeable in algorithms and data structures. She is a quick learner and is always eager to take on new challenges. In her previous roles, Annie has worked on a variety of projects, ranging from building web applications to developing software for mobile devices. She is a team player and has excellent communication skills, making her a valuable asset to any development team. In her free time, Annie enjoys staying up to date with the latest developments in the tech industry and learning about new programming languages and frameworks.</p>
+          
+        </div>
+        <div id="contact" class="about__left">
+          <div class="footer__link--items"> 
+            <h2>Contact Us</h2>
+            <h4 class="half">Email</h4>
+            <h5 class="half">annalies.vanharmelen@gmail.com</h5>
+            <h4 class="half">Linkedin</h4>
+            <h5 class="half"></h5>
+            
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
